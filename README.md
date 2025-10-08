@@ -118,5 +118,94 @@ print(x ** y)  # Exponentiation (x to the power of y) -> 1000
             </div>
         </section>
 
+          <hr>
+
+        <section id="blocks">
+            <h2>Understanding Python Blocks 🧱</h2>
+            <div class="section-content">
+                <p>Unlike many other languages that use curly braces `{}` to define code blocks, Python uses <strong>indentation</strong>. A block of code begins with an indentation and ends with the first unindented line. The standard is to use <strong>four spaces</strong> per indentation level.</p>
+                
+                <h3>The Role of Indentation:</h3>
+                <p>Indentation is not just for readability in Python; it's a strict syntax rule. Incorrect indentation will cause an <code>IndentationError</code>.</p>
+                
+                <div class="code-grid">
+                    <div class="code-container">
+                        <h4>✅ Correct Example:</h4>
+                        <pre><code class="language-python">
+is_raining = True
+if is_raining:
+    print("Don't forget an umbrella!")  # This is inside the 'if' block
+    print("And wear your boots.")       # This is also inside the 'if' block
+
+print("Have a nice day!") # This is outside the 'if' block
+                        </code></pre>
+                    </div>
+                    <div class="code-container">
+                        <h4>❌ Incorrect Example:</h4>
+                        <pre><code class="language-python">
+if True:
+print("This will cause an error!") # Error: expected an indented block
+                        </code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="datatypes">
+            <h2>Python Data Types 📊</h2>
+            <div class="section-content">
+                <p>Data types are classifications of data items. Python has several built-in types. You can check the type of any object using the <code>type()</code> function.</p>
+                
+                <div class="data-type-cards">
+                    <div class="card">
+                        <h3>Integer (`int`)</h3>
+                        <p>Represents positive or negative whole numbers without a decimal point.</p>
+                        <pre><code>a = 100</code></pre>
+                    </div>
+                    <div class="card">
+                        <h3>Float (`float`)</h3>
+                        <p>Represents numbers with a decimal point or in exponential form.</p>
+                        <pre><code>b = 3.14</code></pre>
+                    </div>
+                    <div class="card">
+                        <h3>String (`str`)</h3>
+                        <p>An ordered sequence of characters, enclosed in single, double, or triple quotes.</p>
+                        <pre><code>c = "Hello, World!"</code></pre>
+                    </div>
+                    <div class="card">
+                        <h3>Boolean (`bool`)</h3>
+                        <p>Represents one of two logical values: <code>True</code> or <code>False</code>.</p>
+                        <pre><code>d = True</code></pre>
+                    </div>
+                </div>
+
+                <h3>Other Important Data Types:</h3>
+                <p>Python also has powerful collection data types:</p>
+                <ul>
+                    <li><strong>List (`list`):</strong> An ordered and mutable (changeable) collection. Example: `my_list = [1, "apple", 3.5]`</li>
+                    <li><strong>Tuple (`tuple`):</strong> An ordered and immutable (unchangeable) collection. Example: `my_tuple = (1, "apple", 3.5)`</li>
+                    <li><strong>Dictionary (`dict`):</strong> An unordered collection of key-value pairs. Example: `my_dict = {"name": "John", "age": 30}`</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Next Steps: Dive into Control Flow, Functions, and more!</p>
+        <div class="social-links">
+            <a href="#">Twitter</a> | <a href="#">GitHub</a> | <a href="#">LinkedIn</a>
+        </div>
+        <p>&copy; 2025 PyLearn. Created with ❤️ in India.</p>
+        <a href="#" class="back-to-top">▲</a>
+    </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
 
                     
