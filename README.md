@@ -1,4 +1,7 @@
-
+Variables 
+Operators 
+Blocks 
+Data Types 
 <!DOCTYPE html>
 <html lang="en" data-theme="dark">
 <head>
