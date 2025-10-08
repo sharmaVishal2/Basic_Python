@@ -1,5 +1,4 @@
-# Basic_Python
-Python pg
+
 <!DOCTYPE html>
 <html lang="en" data-theme="dark">
 <head>
