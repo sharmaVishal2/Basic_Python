@@ -53,4 +53,70 @@ Python pg
                 <div class="code-container">
                     <pre><code class="language-python">
 
+                    # Assigning a string to a variable
+full_name = "Alice Wonderland"
+
+# Assigning an integer
+age = 30
+
+# The same variable can be reassigned to a different type
+age = "thirty years old" 
+
+# Multiple assignments in one line
+x, y, z = "Orange", "Banana", "Cherry"
+                    </code></pre>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="operators">
+            <h2>Python Basic Operators ⚙️</h2>
+            <div class="section-content">
+                <p>Operators are special symbols that perform computations. Let's explore the most common ones.</p>
+                
+                <h3>Arithmetic Operators:</h3>
+                <p>Used to perform mathematical operations.</p>
+                <div class="code-container">
+                    <pre><code class="language-python">
+
+                    x = 10
+y = 3
+
+print(x + y)   # Addition -> 13
+print(x - y)   # Subtraction -> 7
+print(x * y)   # Multiplication -> 30
+print(x / y)   # Division -> 3.333...
+print(x // y)  # Floor Division (discards the fractional part) -> 3
+print(x % y)   # Modulus (returns the remainder) -> 1
+print(x ** y)  # Exponentiation (x to the power of y) -> 1000
+                    </code></pre>
+                </div>
+
+                <h3>Interactive Operator Panel:</h3>
+                <p>Try it yourself! Enter two numbers and see the result of different operations.</p>
+                <div class="interactive-panel">
+                    <div class="inputs">
+                        <input type="number" id="x" value="10">
+                        <select id="operator">
+                            <option value="+">+</option>
+                            <option value="-">-</option>
+                            <option value="*">*</option>
+                            <option value="/">/</option>
+                            <option value="//">//</option>
+                            <option value="%">%</option>
+                            <option value="**">**</option>
+                        </select>
+                        <input type="number" id="y" value="3">
+                    </div>
+                    <button id="calculate">Calculate</button>
+                    <div class="output">
+                        <p>Result: <span id="result">13</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
                     
